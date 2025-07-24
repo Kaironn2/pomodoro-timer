@@ -10,12 +10,12 @@
   --gray-800: #181f2e;
   --gray-900: #0a0f1a;
 
-  --primary: #0da170;
-  --primary-dark: #065f46;
-  --primary-light: #4de7b7;
+  --primary: #8b5cf6;
+  --primary-dark: #6d28d9;
+  --primary-light: #c4b5fd;
 
-  --link-color: #10b981;
-  --link-hover: #0b8a60;
+  --link-color: #a78bfa;
+  --link-hover: #7c3aed;
 
   --success: #22c55e;
   --warning: #eab308;
@@ -35,4 +35,22 @@
 
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
+}
+
+:root[data-theme='light'] {
+  --gray-100: #0a0f1a;
+  --gray-200: #181f2e;
+  --gray-300: #272f43;
+  --gray-400: #363d56;
+  --gray-500: #454f6a;
+  --gray-600: #555f7d;
+  --gray-700: #aab3cc;
+  --gray-800: #cdd3e1;
+  --gray-900: #e6e9f0;
+
+  --text-default: #0a0f1a;
+  --text-muted: #272f43;
+
+  --link-color: #a78bfa;
+  --link-hover: #7c3aed;
 }
