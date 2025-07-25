@@ -9,7 +9,7 @@ export function MainForm() {
       <div className="formRow">
         <DefaultInput
           id="task"
-          type="number"
+          type="text"
           placeholder="Digite algo"
           labelText="tarefa"
         />
