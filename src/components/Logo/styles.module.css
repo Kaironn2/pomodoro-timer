@@ -23,7 +23,14 @@
     filter: brightness(80%)
 }
 
-.logoLink svg {
+.logoLink img {
     width: 6.4rem;
     height: 6.4rem;
+}
+
+.logoLink span {
+  background: linear-gradient(90deg, #479ce8, #b83af6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

@@ -8,7 +8,7 @@ export function Footer() {
                 Entenda como funciona a técnica de pomodoro
             </RouterLink>
             <RouterLink href='/'>
-                Tomato &copy; {new Date().getFullYear()}
+                Kairos &copy; {new Date().getFullYear()}
             </RouterLink>
         </footer>
     )

@@ -7,7 +7,7 @@ import { MainTemplate } from '../../templates/MainTemplate';
 
 export function AboutPomodoro() {
   useEffect(() => {
-    document.title = 'Entenda a Técnica Pomodoro - Tomato';
+    document.title = 'Entenda a Técnica Pomodoro - Kairos';
   }, []);
 
   return (
@@ -44,7 +44,7 @@ export function AboutPomodoro() {
           </ul>
 
           <h2>
-            Mas no <strong>Tomato</strong> tem um diferencial 🚀
+            Mas no <strong>Kairos</strong> tem um diferencial 🚀
           </h2>
 
           <p>
@@ -107,7 +107,7 @@ export function AboutPomodoro() {
             evolução ao longo do tempo.
           </p>
 
-          <h2>Por que usar o Tomato?</h2>
+          <h2>Por que usar o Kairos?</h2>
           <ul>
             <li>✅ Organize seu foco com clareza.</li>
             <li>✅ Trabalhe e descanse na medida certa.</li>

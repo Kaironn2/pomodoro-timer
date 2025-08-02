@@ -6,7 +6,7 @@ import { CountDown } from '../../components/Countdown';
 
 export function Home() {
   useEffect(() => {
-    document.title = 'Tomato';
+    document.title = 'Kairos';
   }, []);
 
   return (

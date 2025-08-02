@@ -23,7 +23,7 @@
 }
 
 .purple {
-  background: var(--primary);
+  background: linear-gradient(90deg, #479ce8, #b83af6);
   color: var(--text-over-primary);
 }
 
