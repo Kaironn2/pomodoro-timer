@@ -7,12 +7,10 @@ import "./styles/global.css";
 
 export function App() {
   return (
-    <>
-      <TaskContextProvider>
-        <MessagesContainer>
-          <MainRouter />
-        </MessagesContainer>
-      </TaskContextProvider>
-    </>
+    <TaskContextProvider>
+      <MessagesContainer>
+        <MainRouter />
+      </MessagesContainer>
+    </TaskContextProvider>
   );
 }
