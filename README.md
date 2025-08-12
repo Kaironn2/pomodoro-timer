@@ -1,69 +1,77 @@
-# React + TypeScript + Vite
+# ⏳ React Pomodoro App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Pomodoro** application built with **React** to help manage time effectively by alternating between **work sessions**, **short breaks**, and **long breaks**.  
+Perfect for improving focus and maintaining healthy break routines.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⏱ **Work Timer** — Focused time blocks to get tasks done.
+- ☕ **Short Break** — Quick pauses to recharge energy.
+- 🛌 **Long Break** — Longer rests to sustain productivity.
+- 🔄 **Cycle Control** — Automatic switching between work and breaks.
+- 🎨 **Responsive UI** — Optimized for desktop and mobile devices.
+- 🎵 **Sound Alerts** — Notifications at the end of each cycle (optional).
+- 💾 **Local Persistence** — Keeps your session even after page reload.
+- ⏰ **Customizable session durations via UI** — choose duration for each session.
+- 🌙 **Dark mode** — change between light and dark mode.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React** — UI library for building the interface.
+- **Hooks (useState, useEffect)** — State and side-effect management.
+- **CSS Modules / TailwindCSS** *(depending on your choice)* — Styling the application.
+- **LocalStorage** — Storing configurations locally.
+- **Vite** *(or Create React App)* — Fast development environment.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## ⚙️ Installation & Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/pomodoro-app.git
+
+# Navigate into the project folder
+cd pomodoro-app
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+# Run the project
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Access in your browser:  
 ```
+http://localhost:5173
+```
+*(or the port shown in your terminal)*
+
+---
+
+## 📌 How It Works
+
+1. Set work, short break, and long break durations (or use defaults).
+2. Click **Start** to begin the timer.
+3. At the end of each session, the app automatically switches to the next cycle.
+4. After a few work cycles, a **long break** starts.
+
+---
+
+## 🛠 Future Improvements
+
+
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — feel free to use and modify it.
